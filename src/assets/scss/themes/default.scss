@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #fff;
+  --text-color: #121416d8;
+  --link-color: #543fd7;
+
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  /*--Typography--*/
+  --fw-900: 900; // Black (Heavy)
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --font-family-Inter: "Inter";
+  --font-family-Roboto: "Roboto Flex";
+  --font-family-NunitoSans: "Nunito Sans";
+  --font-size-10: 10px; // 10 / 16
+  --font-size-11: 11px; // 11 / 16
+  --font-size-12: 12px; // 12 / 16
+  --font-size-13: 13px; // 13 / 16
+  --font-size-14: 14px; // 14 / 16
+  --font-size-14xtra: 14.67px;
+  --font-size-15: 15px; // 15 / 16
+  --font-size-16: 16px; // 16 / 16
+  --font-size-18: 18px; // 18 / 16
+  --font-size-20: 20px; // 20 / 16
+  --font-size-24: 24px; // 24 / 16
+  --font-size-30: 30px; // 30 / 16
+  --font-size-40: 40px; // 40 / 16
+  --font-size-42: 42px;
+  --font-size-50: 50px; // 50 / 16
+  --font-size-60: 60px; // 60 / 16
+  --fw-100: 100; // Thin
+  --fw-200: 200; // Extra Light
+  --fw-300: 300; // Light
+  --fw-400: 400; // Normal (Regular)
+  --fw-500: 500; // Medium
+  --fw-600: 600; // Semi-Bold
+  --fw-700: 700; // Bold
+  --fw-800: 800; // Extra Bold
+
+  /*Components*/
+  --widget-card-hover-bg: var(--blue-600);
+  --widget-card-font-color: var(--dark-grey);
+  --widget-card-font-family: var(--font-family-Roboto);
+  --widget-card-font-size: var(--font-size-16);
+  --widget-card-font-weight: var(--fw-500);
+  --widget-card-left-bg: var(--blue-50);
+  --widget-card-left-font-color: var(--dark-grey);
+  --widget-card-left-font-size: var(--font-size-30);
+
+  --cardBg: #fff;
+  --HeaderBg: var(--gray);
+}

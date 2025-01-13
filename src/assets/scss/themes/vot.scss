@@ -1,0 +1,203 @@
+html[data-theme="vot"] {
+  /*----Themeing  --*/
+  /*--Color Palettes From Figma--*/
+  /*--Red Color--*/
+  --red-50: #ffe8ea;
+  --red-100: #ffb8bd;
+  --red-200: #ff969d;
+  --red-300: #f6676e;
+  --red-400: #f14954;
+  --red-500: #ff1b29;
+  --red-600: #e81925;
+  --red-700: #b5131d;
+  --red-800: #8c0f17;
+  --red-900: #6b0b11;
+  /*--Blue Color--*/
+  --blue-50: #e6ebf3;
+  --blue-100: #b0c2d9;
+  --blue-200: #8aa4c6;
+  --blue-300: #547aac;
+  --blue-400: #33619c;
+  --blue-500: #003983;
+  --blue-600: #003477;
+  --blue-700: #002b5d;
+  --blue-800: #001f48;
+  --blue-900: #001837;
+  --dull-blue: #49739e;
+  /*--Black Color--*/
+  --black-50: #e6e6e6;
+  --black-100: #b0b0b0;
+  --black-200: #8a8a8a;
+  --black-300: #545454;
+  --black-400: #333333;
+  --black-500: #000000;
+
+  --white: #fff;
+  --grey: #8b8b8b;
+  --disabled-color: #b0c2d9;
+  --blue: #0d99ff;
+  --dark-grey: #212529;
+  --green: #4fbb4a;
+
+  --grey-200: #d3d5d6;
+  --grey-500: #9c9e9f;
+  --black-opacity-8: #00000008;
+  --teal-900: #055c7b;
+  --grey-600: #767574;
+  --pale-blue: #47668d;
+  --grey-300: #cccccc;
+  --teal-600: #0aa795;
+  --grey-100: #e3e3e3;
+
+  /*--White Color--*/
+  --white-90cent: rgba(255, 255, 255, 0.9);
+  --white-80cent: rgba(255, 255, 255, 0.8);
+  --white-70cent: rgba(255, 255, 255, 0.7);
+  --white-50cent: rgba(255, 255, 255, 0.5);
+  --white-30cent: rgba(255, 255, 255, 0.3);
+  --white-10cent: rgba(255, 255, 255, 0.1);
+
+  /*--Grey Color--*/
+  --black-80cent: rgba(0, 0, 0, 1);
+  --black-70cent: rgba(0, 0, 0, 1); //--black-500
+  --black-60cent: #333333; //--black-400
+  --black-50cent: #545454; //--black-300
+  --black-40cent: rgba(0, 0, 0, 0.4);
+  --black-30cent: rgba(176, 176, 176, 1); //--black-100
+  --black-20cent: rgba(0, 0, 0, 0.2);
+  --black-10cent: rgba(230, 230, 230, 1); //--black-50
+
+  /*--Typography--*/
+  --font-family-Inter: "Inter";
+  --font-family-Roboto: "Roboto Flex";
+  --font-family-NunitoSans: "Nunito Sans";
+  --font-size-10: 10px; // 10 / 16
+  --font-size-11: 11px; // 11 / 16
+  --font-size-12: 12px; // 12 / 16
+  --font-size-13: 13px; // 13 / 16
+  --font-size-14: 14px; // 14 / 16
+  --font-size-14xtra: 14.67px;
+  --font-size-15: 15px; // 15 / 16
+  --font-size-16: 16px; // 16 / 16
+  --font-size-18: 18px; // 18 / 16
+  --font-size-20: 20px; // 20 / 16
+  --font-size-24: 24px; // 24 / 16
+  --font-size-30: 30px; // 30 / 16
+  --font-size-40: 40px; // 40 / 16
+  --font-size-42: 42px;
+  --font-size-50: 50px; // 50 / 16
+  --font-size-60: 60px; // 60 / 16
+  --fw-100: 100; // Thin
+  --fw-200: 200; // Extra Light
+  --fw-300: 300; // Light
+  --fw-400: 400; // Normal (Regular)
+  --fw-500: 500; // Medium
+  --fw-600: 600; // Semi-Bold
+  --fw-700: 700; // Bold
+  --fw-800: 800; // Extra Bold
+  --fw-900: 900; // Black (Heavy)
+
+  /*Components*/
+
+  --filter-color: var(--black-500);
+  --primary-button-text-color: var(--white);
+  --secondary-button-bg: var(--white);
+  --button-disabled-color-bg: var(--grey-200);
+  --button-disabled-text-color: var(--grey-500);
+  --sidemenu-bg: var(--white);
+  --sidemenu-text-color: var(--blue-400);
+  --sidemenu-active-indicator: var(--blue-400);
+  --sidemenu-img-filter: brightness(0) saturate(100%) invert(35%) sepia(7%)
+    saturate(4361%) hue-rotate(174deg) brightness(98%) contrast(91%);
+  --widget-card-bg: var(--white-90cent);
+  --widget-card-hover-bg: var(--blue-600);
+  --widget-card-font-color: var(--dark-grey);
+  --widget-card-font-family: var(--font-family-Roboto);
+  --widget-card-font-size: var(--font-size-16);
+  --widget-card-font-weight: var(--fw-500);
+  --widget-card-left-bg: var(--blue-50);
+  --widget-card-left-font-color: var(--dark-grey);
+  --widget-card-left-font-size: var(--font-size-30);
+  --widget-card-left-hover-img: brightness(0) saturate(100%) invert(98%)
+    sepia(0%) saturate(7500%) hue-rotate(221deg) brightness(103%) contrast(105%);
+  --tile-card-bg: var(--white);
+  --widget-card-hover-font-color: var(--white);
+  --widget-card-label-font-size: var(--font-size-11);
+  --widget-card-label-font-color: var(--black-200);
+  --widget-card-value-font-size: var(--font-size-15);
+  --widget-card-value-font-color: var(--dark-grey);
+  --widget-card-header-font-size: var(--font-size-16);
+  --widget-card-header-font-family: var(--font-family-Roboto), sans-serif;
+  --widget-card-header-font-color: var(--dark-grey);
+  --widget-card-header-font-weight: var(--fw-500);
+  --body-title-font-family: var(--font-family-Roboto), sans-serif;
+  --body-title-font-size: var(--font-size-20);
+  --profile-header-tile-font-family: var(--font-family-Roboto), sans-serif;
+  --profile-header-tile-font-size: var(--font-size-15);
+  --profile-header-tile-font-color: var(--dark-grey);
+  --profile-header-tile-font-weight: var(--fw-600);
+  --profile-details-font-family: var(--font-family-Inter);
+  --profile-details-font-size: var(--font-size-13);
+  --profile-details-font-weight: var(--fw-500);
+  --profile-details-font-color: var(--dark-grey);
+  --profile-sub-details-font-family: var(--font-family-Roboto), sans-serif;
+  --profile-sub-details-font-size: var(--font-size-12);
+  --profile-sub-details-font-weight: var(--fw-400);
+  --profile-sub-details-font-color: var(--grey);
+  --profile-footer-bg: var(--black-opacity-8);
+  --profile-value-font-family: var(--font-family-Inter);
+  --profile-value-font-size: var(--font-size-14xtra);
+  --profile-value-font-weight: var(--fw-500);
+  --profile-value-font-color: var(--teal-900);
+  --profile-value-footer-font-family: var(--font-family-Inter);
+  --profile-value-footer-font-size: var(--font-size-11);
+  --profile-value-footer-font-weight: var(--fw-400);
+  --profile-value-footer-font-color: var(--grey-600);
+  --entity-font-color: var(--black-700);
+  --entity-font-family: var(--font-family-Inter);
+  --entity-font-weight: var(--fw-600);
+  --entity-font-size: var(--font-size-15);
+  --body-vital-font-weight: var(--fw-600);
+  --body-vital-font-color: var(--dark-grey);
+  --body-vital-font-family: var(--font-family-Inter), sans-serif;
+  --body-vital-font-size: var(--font-size-20);
+  --body-vital-bg: var(--white);
+  --alert-count-font-weight: var(--fw-500);
+  --alert-count-font-size: var(--font-size-42);
+  --alert-count-font-family: var(--font-family-Inter), sans-serif;
+  --alert-count-font-color: var(--blue-600);
+  --heading-text-font-size: var(--font-size-18);
+  --heading-text-font-weight: var(--fw-600);
+  --heading-text-font-color: var(--dark-grey);
+  --alertlist-bg: var(--white);
+  --profile-header-font-weight: var(--fw-500);
+  --profile-header-font-color: var(--black-500);
+  --profile-header-font-family: var(--font-family-Inter), sans-serif;
+  --profile-header-font-size: var(--font-size-16);
+  --app-sidedrawer-bg: var(--white);
+  --app-sidedrawer-font-color: var(--white);
+  --app-sidedrawer-font-family: var(--font-family-Inter), sans-serif;
+  --add-button-bg: var(--blue-500);
+  --geo-fence-bg-color: var(var(--blue-500));
+  --geo-fence-text-color: var(--white);
+  --filter-header-color: var(--pale-blue);
+  --mat-tab-active-indicator: var(--blue-500);
+  --mat-opt-list-selected: var(--blue-400);
+  --header-refresh-bt: var(--white);
+  --avatar-img-filter: brightness(0) saturate(100%) invert(12%) sepia(92%)
+    saturate(3494%) hue-rotate(16deg) brightness(95%) contrast(111%);
+  --profile-avatar-img-filter: brightness(0) saturate(100%) invert(98%)
+    sepia(0%) saturate(7500%) hue-rotate(221deg) brightness(103%) contrast(105%);
+  --mdc-primary-text-color: var(--white);
+  --table-bg: var(--white);
+  --table-border-color: var(--grey-300);
+  --table-bordertop-outline-color: var(--teal-600);
+  --table-borderbottom-outline-color: var(--grey-100);
+  --profile-value-font-color: var(--teal-900);
+  --baseFont: var(--font-family-Inter);
+
+  --headerbg: var(--red-500);
+  --bodyBg: #f9f9f9;
+  --HeaderBg: var(--dull-blue);
+  --cardBg: #fff;
+}

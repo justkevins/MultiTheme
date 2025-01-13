@@ -1,0 +1,67 @@
+html[data-theme="dark"] {
+  --bodyBg: #000;
+  --text-color: #fff;
+  --link-color: #828fff;
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --baseFont: var(--font-family-montserrat);
+  --HeaderBg: gold;
+
+  /* Primary Colors */
+  --bs-primary: #0d6efd; /* Primary blue */
+  --bs-secondary: #6c757d; /* Secondary grey */
+  --bs-success: #198754; /* Success green */
+  --bs-info: #0dcaf0; /* Info cyan */
+  --bs-warning: #ffc107; /* Warning yellow */
+  --bs-danger: #dc3545; /* Danger red */
+  --bs-light: #f8f9fa; /* Light grey */
+  --bs-dark: #212529; /* Dark grey */
+
+  /* Text Colors */
+  --bs-body-color: #dee2e6; /* Light text for dark theme */
+  --bs-body-bg: #212529; /* Background for dark theme */
+  --bs-muted: #adb5bd; /* Muted text */
+  --bs-white: #ffffff; /* White text */
+
+  /* Background Colors */
+  --bs-bg-light: #343a40; /* Light background for dark theme */
+  --bs-bg-dark: #212529; /* Dark background for cards, etc. */
+  --bs-bg-primary: #0d6efd; /* Primary background */
+  --bs-bg-secondary: #6c757d; /* Secondary background */
+
+  /* Border Colors */
+  --bs-border-color: #495057; /* Border for inputs, buttons, etc. */
+  --bs-border-dark: #212529; /* Darker border color */
+  --bs-border-light: #6c757d; /* Lighter border color */
+
+  /* Hover States */
+  --bs-hover-bg: #495057; /* Background on hover */
+  --bs-hover-text: #ffffff; /* Text color on hover */
+
+  /* Shadows */
+  --bs-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Small shadow */
+  --bs-shadow-lg: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Large shadow */
+
+  /* Components Specific */
+  --bs-btn-primary-hover-bg: #0b5ed7;
+  --bs-btn-secondary-hover-bg: #5c636a;
+  --bs-link-color: #0dcaf0; /* Links in dark theme */
+  --bs-link-hover-color: #0d8ecf;
+
+  /* Tables */
+  --bs-table-bg: #212529;
+  --bs-table-hover-bg: #2c3036;
+  --bs-table-border: #343a40;
+  --bs-table-accent-bg: #495057;
+
+  /* Alerts */
+  --bs-alert-bg: #1a1d21;
+  --bs-alert-border: #495057;
+  --bs-alert-color: #adb5bd;
+
+  /* Toasts */
+  --bs-toast-bg: #212529;
+  --bs-toast-color: #dee2e6;
+  --bs-toast-border: #495057;
+  --cardBg: #fff;
+  --HeaderBg: var(--bs-muted);
+}

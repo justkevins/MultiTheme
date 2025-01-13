@@ -1,0 +1,41 @@
+@import "./assets/scss/main";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/*Common Layout Strucutre for the application*/
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: var(--baseFont);
+}
+body {
+  background: var(--bodyBg);
+  color: var(--text-color);
+  font-family: var(--baseFont);
+}
+.header {
+  background: var(--HeaderBg);
+}
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: var(--baseFont);
+
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
